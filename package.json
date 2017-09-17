@@ -27,7 +27,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "mkdirp": "^0.5.1",
-    "noop3": "^999.999.999",
+    "noop3": "*",
     "xo": "^0.18.2"
   },
   "dependencies": {
