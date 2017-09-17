@@ -8,7 +8,7 @@
   },
   "scripts": {
     "pretest": "npm run build --silent",
-    "test": "ava",
+    "test": "xo && ava",
     "prebuild": "mkdirp dist",
     "build": "babel . -d dist --presets env --ignore node_modules,dist,test"
   },
@@ -27,7 +27,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "mkdirp": "^0.5.1",
-    "noop3": "^999.999.999"
+    "noop3": "^999.999.999",
+    "xo": "^0.18.2"
   },
   "dependencies": {
     "eventemitter2": "^4.1.2",
